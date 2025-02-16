@@ -1,11 +1,27 @@
 /* Background Image */
-body {
+#index{
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("Resources/road.png");
+}
+#about{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("Resources/About/Harbour-Bridge-Sydney.png");
+}
+#interests{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("Resources/Interests/JAPAN.png");
+}
+#projects{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("Resources/Projects/CHINA.png");
+}
+#socials{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("");
+}
+
+body {
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
     position: relative;
-    overflow: hidden;
+    /* CHANGE IT BACK AFTER FINISHING THE PAGES!!! */
+    /* overflow: hidden; */
 }
 
 
