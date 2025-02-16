@@ -1,34 +1,93 @@
-.intro {
-    background-color: lightgrey;
-    padding: 6%;
-    margin-bottom: 2%;
+/* Background Image */
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("Resources/road.png");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
 }
+
+
+/* .intro {
+    opacity: 0.8;
+    background-color: #f9f9f9;
+    padding: 4%;
+    margin-bottom: 2%;
+} */
 
 #heading {
     font-size: 2.5em;
-    float: left;
+    text-align: center;
     font-weight: bold;
+    text-decoration: underline;
+    animation: popout 1.5s infinite;
+    rotate: -5deg;
+    padding: 4%;
 }
 
 /* Photo Gallery */
 div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
+    margin: 15px 30px; /* Spacing between photos */
     float: left;
-    width: 180px;
 }
 
 div.gallery:hover {
-    border: 1px solid #777;
     transform: scale(1.05);
+    rotate: 2deg;
 }
 
 div.gallery img {
-    width: 100%;
-    height: auto;
+    max-height: 200px;
+    width: auto;
+    /* Borders = Polaroid frame */
+    border-style: solid;
+    border-width: 10px 10px 30px 10px;
+    border-color: white;
 }
 
-div.desc {
-    padding: 15px;
-    text-align: center;
+/* Featured Photo */
+div.featured {
+    margin: 2% 18%;
+    float: left;
+    animation: hover 3s infinite;
+
+    /* Borders = Polaroid frame */
+    border-style: solid;
+    border-width: 10px 10px 50px 10px;
+    border-color: white;
+}
+
+div.featured img {
+    max-height: 300px;
+    width: auto;   
+}
+
+/* Featured Image - Hover FX */
+@keyframes hover {
+    0% {
+        rotate: 0deg;
+        scale: 1;
+    }
+    50% {
+        transform: rotate(5deg);
+        transform: scale(1.05);
+    }
+    100% {
+        transform: rotate(0deg);
+        transform: scale(1);
+    }
+}
+
+/* Pop-out VFX for Heading */
+@keyframes popout {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
