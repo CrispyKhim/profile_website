@@ -57,6 +57,15 @@ div.gallery img {
     border-color: white;
 }
 
+div.gallery #heading {
+    background-color: lightgray;
+    rotate: 0deg;
+    border-style: solid;
+    border-width: 10px 10px 30px 10px;
+    border-color: white;
+    animation: none;
+}
+
 /* Featured Photo */
 div.featured {
     margin: 2% 20%;
