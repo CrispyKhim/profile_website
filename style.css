@@ -12,7 +12,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("Resources/Projects/CHINA.png");
 }
 #socials{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://a.travel-assets.com/findyours-php/viewfinder/images/res70/210000/210083-Central-Java.jpg");
 }
 
 body {
@@ -34,7 +34,7 @@ body {
 }
 
 #highlight {
-    animation: popout 3s infinite;
+    animation: popout 1.5s infinite;
 }
 
 /* Photo Gallery */
