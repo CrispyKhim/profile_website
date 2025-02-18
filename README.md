@@ -13,3 +13,5 @@ Then I had the sudden realisation that I was bad at web development, so I leaned
 The background represents parts of the world (I suppose) and the images are stylised to be like a polaroid picture frame, where some vary in text and images.
 
 I hope this "creative" interpretation was understandable cause I had no idea how to add some parts to make the website legible...
+
+PS: the website may or may not lag or slow down for some reason... maybe cause it is trying to get the images but please, give it some time to load or refresh page... Either way, it might've been my poor internet connection :'(
