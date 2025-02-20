@@ -15,6 +15,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://a.travel-assets.com/findyours-php/viewfinder/images/res70/210000/210083-Central-Java.jpg");
 }
 
+
 body {
     background-position: center;
     background-repeat: repeat;
@@ -33,6 +34,7 @@ body {
     padding: 4%;
 }
 
+/* Images popout effect */
 #highlight {
     animation: popout 1.5s infinite;
 }
